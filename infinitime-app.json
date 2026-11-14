@@ -1,0 +1,28 @@
+{
+  "manifestVersion": 1,
+  "name": "Sky Games",
+  "author": "InfiniTime Builder examples",
+  "description": "Two small arcade games for the PineTime: Hot Air and Cloud Hopper.",
+  "homepage": "https://github.com/ScanuNicco/infinitime-sky-games",
+  "minInfiniTime": "1.16.0",
+  "apps": [
+    {
+      "type": "app",
+      "enum": "HotAir",
+      "name": "Hot Air",
+      "description": "Tap to fire the burner and steer your balloon between the rock pillars.",
+      "header": "hot-air/HotAir.h",
+      "sources": ["hot-air/HotAir.cpp"],
+      "icon": "0xf06d"
+    },
+    {
+      "type": "app",
+      "enum": "CloudHopper",
+      "name": "Cloud Hopper",
+      "description": "Bounce a jelly blob up from cloud to cloud. Hold left or right to steer.",
+      "header": "cloud-hopper/CloudHopper.h",
+      "sources": ["cloud-hopper/CloudHopper.cpp"],
+      "icon": "0xf0c2"
+    }
+  ]
+}
